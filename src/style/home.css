@@ -1,0 +1,72 @@
+.mainboxbc{
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+
+.mainboxhome{
+  width:100%;
+  height:100%;
+  overflow: hidden;
+  margin: auto;
+  background-image:  url("../../public/93cbb8f07152572ecf52e681d319c72.jpg");
+  background-repeat:  no-repeat ;
+  background-size:cover;
+  position:relative;
+}
+
+
+.img1 {
+    height:20%;
+    width: 50%;
+    margin-left: 25%;
+    margin-top: 2%;
+    object-fit: fill;
+    border-radius: 15px;
+}
+
+.showbox-list {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr); /* 每行显示5列 */
+  gap: 24px; /* 列之间的间距 */
+  color: #34421e;
+  margin: 140px 10%;
+}
+
+.showbox-list a{
+  color: #efefef;
+  font-family: 'STSong';
+  font-size: 30px;
+  font-weight:bolder;
+}
+
+.showbox-container {
+  display: flex;
+  flex-direction:row;
+  align-items: center;
+  text-align: center;
+}
+
+.showbox-container img {
+  margin-bottom: 10px; /* 图片和标题之间的间距 */
+}
+
+.foo{
+  display: flex;
+  flex-direction: row;
+}
+
+.covertext{
+  display:block;
+  font-family: 'STXingkai';
+  font-weight: lighter;
+  margin: 250px 100px 0;
+}
+
+.covertext h1{
+  font-size: 110px;
+  color:#fff;
+  margin-block: 20px 0;
+}

@@ -1,0 +1,49 @@
+/* 在你的 CSS 文件中添加以下样式 */
+
+.article-container {
+    width: 60%;
+    margin: 0 auto;
+    padding: 20px;
+    margin-left: 5%;
+  }
+  
+  .article-title {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  .article-text {
+    font-size: 16px;
+    line-height: 1.5;
+    margin-bottom: 20px;
+  }
+  
+  .article-image {
+    max-width: 80%;
+    height: auto;
+    margin-bottom: 20px;
+    margin-left: 10%;
+  }
+  
+
+  .vertical-nav {
+    display: flex;
+    flex-direction: column;
+    background-color:rgb(231, 253, 236);
+    height:350px;
+    width:20%;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .vertical-nav li {
+    border: 2px solid #d3f0c8; 
+  }
+  
+  .vertical-nav a {
+    text-decoration: none;
+    color: #333;
+    font-size: 16px;
+    /* 添加其他样式 */
+  }

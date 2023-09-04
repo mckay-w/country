@@ -1,0 +1,79 @@
+/* 设置最外层容器的宽度和高度为更小的尺寸 */
+#max {
+  width: 600px;
+  height: 300px;
+  align-items: center;
+  margin: 5% auto;
+  margin-top: 0%;
+}
+
+/* 设置轮播容器的样式 */
+.re {
+  position: relative;
+  height: 200px;
+}
+
+/* 设置图片轮播部分的样式 */
+.re ul {
+  list-style-type: none; /* 移除列表样式 */
+}
+
+/* 设置每张图片项的样式 */
+.re ul > li {
+  width: 400px;
+  height: 200px;
+  position: absolute;
+  transition: 1s; /* 设置过渡效果，使图片的显示/隐藏更平滑 */
+  opacity: 0; /* 设置透明度为0，隐藏图片 */
+}
+
+/* 设置图片的样式 */
+.re ul > li img {
+  width: 600px;
+  height: 300px;
+  border-radius: 10%; /* 设置圆角边框 */
+  border: 10px solid #fffbd6; /* 设置白色边框 */
+}
+
+/* 设置小圆点导航部分的样式 */
+#max ol {
+  position: relative;
+  display: grid;
+  grid-template-columns: repeat(5, 40px); /* 使用grid布局，每个小圆点的宽度为40px */
+  grid-template-rows: auto;
+  grid-gap: 0.5em; /* 设置小圆点之间的间距 */
+  gap: 0.5em;
+  float: right;
+  margin-top: 220px; /* 将小圆点导航移动到图片下方 */
+  list-style: none; /* 移除列表样式 */
+  top: 0;
+  left: 0;
+}
+
+/* 设置小圆点的样式 */
+#max ol li {
+  width: 10px;
+  height: 10px;
+  font-size: 12px;
+  line-height: 15px;
+  float: left;
+  text-align: center;
+  border-radius: 50%; /* 设置为圆形 */
+  border: 2px solid #999999; /* 设置边框样式 */
+}
+
+.image-container {
+  display: flex;
+  align-items: center;
+  flex-direction:row;
+  overflow: hidden; /* 隐藏超出容器宽度的图片部分 */
+}
+
+.sidebox{
+  width: 400px;
+  height: 200px;
+  position: absolute;
+  transition: 1s; /* 设置过渡效果，使图片的显示/隐藏更平滑 */
+  opacity: 0; /* 设置透明度为0，隐藏图片 */
+}
+

@@ -1,0 +1,29 @@
+ul {
+    list-style-type: none;
+    margin-top: 10px;
+    padding: 0;
+    overflow: hidden;
+}
+ 
+li {
+    float: left;
+    
+}
+ 
+li a {
+    display:block;
+    padding-top: 5px;
+    border-top:2px solid rgb(0, 0, 0);
+    margin: 14px 66px;
+    color: rgb(39, 37, 37);
+    text-align: center;
+    font-family: 'SimSun';
+    font-size: 20px;
+    font-weight:bolder;
+    text-decoration: none;
+}
+ 
+/*鼠标移动到选项上修改背景颜色 */
+li a:hover {
+    background-color: #dbf5e0;
+}
